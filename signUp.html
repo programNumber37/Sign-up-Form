@@ -5,78 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="signUp.css">
+    <script src="signUp.js" defer></script>
 </head>
 <body>
 
 
-<div class="picture">
+<div class="pictureLeft">
 
     <img src="websitePicture.jpeg" alt="" width="400" height="600">
 
 </div>
 
+<div class="right">
 
-<div class="form1">
-
-    <p>asdasdasdas</p>
+    <div class="textTop">
+        <p>Sign up now to start learning about things your ancestors had no clue about.</p>
+    </div>
     
+    <div class="formMiddle">
+    
+        <form id="signup-form" action="#">
 
 
-    <form action="#">
+            <fieldset>
 
+                <p>I CAN BE TRUSTED WITH YOUR DATA. GIVE ME YOUR PHONENUMBER TOO.</p>
 
-        <div class="container">
-            <div class="label">
-                <label for="first_name">*First Name:</label>
-                <input type="text" id="first_name" name="first_name" required>
-            </div>
+                <div class="container">
+                    <div class="label">
+                        <label for="first_name">*First Name:</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                  
+                    <div class="label">
+                        <label for="last_name">*Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                </div>
+        
+        
+                <div class="container">
+                    <div class="label">
+                        <label for="user_email">*Email:</label>
+                        <input type="email" id="user_email" name="user_email" required>
+                    </div>
+                    
+                    <div class="label">
+                        <label for="telephoneNumber">*Phone Number:</label>
+                        <input type="tel" id="number" name="telephoneNumber"  placeholder="1234567890"required>
+                    </div>
+                    
+                </div>
+        
+        
+                <div class="container">
+                    
+                    <div class="label">
+                        <label for="user_password">*Password:</label>
+                        <input type="password" id="user_password" name="user_password" minlength="8" maxlength="20" required>
+                    </div>
+                  
+                    <div class="label">
+                        <label for="confirm_password">*Confirm Password:</label>
+                        <input type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="20" required>
+                    </div>
+                </div>
+                
+            </fieldset>
+    
+    
           
-            <div class="label">
-                <label for="last_name">*Last Name:</label>
-                <input type="text" id="last_name" name="last_name" required>
-            </div>
-        </div>
 
 
-        <div>
-            <div class="label">
-                <label for="user_email">*Email:</label>
-                <input type="email" id="user_email" name="user_email" required>
-            </div>
-            
-            <div class="label">
-                <label for="number">*Phone Number:</label>
-                <input type="number" id="number" name="number" required>
-            </div>
-            
-        </div>
-
-
-        <div>
-            
-            <div class="label">
-                <label for="user_password">*Password:</label>
-                <input type="password" id="user_password" name="user_password" required>
-            </div>
-          
-            <div class="label">
-                <label for="confirm_password">*Confirm Password:</label>
-                <input type="confirm_password" id="confirm_password" name="confirm_password" required>
-            </div>
-        </div>
-
-          
-
-          
-
-          <div>
-            <button type="submit">Create Account</button>
-          </div>
-
-
-    </form>
+            <form action="#">
+                <button type="submit">Create Account</button>
+            </form>
+    
+        </form>
+    
+    </div>
+    
+    <div class="bottom">
+       
+        
+      </div>
 
 </div>
+
+
 
 
 </body>
